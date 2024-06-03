@@ -11,5 +11,9 @@ public class uas_asd {
 
         LinkedList<String> aktivitas = new LinkedList<>();
         scanner.nextLine();
+
+        for (int i = 0; i < M; i++) {
+            aktivitas.add(scanner.nextLine());
+        }
     }
 }
