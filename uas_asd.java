@@ -14,6 +14,9 @@ public class uas_asd {
 
         for (int i = 0; i < M; i++) {
             aktivitas.add(scanner.nextLine());
+
+            System.out.println(gerbong);
+            System.out.println(aktivitas);
         }
     }
 }
