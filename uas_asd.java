@@ -8,5 +8,8 @@ public class uas_asd {
         int M = scanner.nextInt(); // untuk jumlah aktivitas
 
         LinkedList<Integer> gerbong = new LinkedList<>();
+
+        LinkedList<String> aktivitas = new LinkedList<>();
+        scanner.nextLine();
     }
 }
