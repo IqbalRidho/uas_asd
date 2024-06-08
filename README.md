@@ -58,3 +58,12 @@ FOR result IN penyimpanan_results						N
 
 = 3 + 13N + 3N^2 + N
 = O(N^2)
+
+Cara pakai program APKMGK 
+1. Masukan input jumlah gerbong dan banyaknya aktivitas yang akan dilakukan pada baris pertama
+2. Masukan tipe aktivitas (1 atau 2) pada awal setiap baris aktivitas
+3. Jika memilih memasukan aktivitas 1 maka kita perlu memasukan input gerbong mana yang akan kita noisi, dan dilanjut dengan jumlah orang yang akan masuk ke dalan gerbong tersebut (maksimal 100 orang dalam sekali pemasukan)
+Contoh : 1 2 4 (memasukan 4      orang ke dalam gerbong 2)
+4. Jika memilih memasukan aktivitas 2 maka kita perlu memasukan input 2 interval gerbong untuk menghitung jumlah orang yang berada di 2 interval tersebut.
+Contoh : 2 1 3 4 5 (menghitung jumlah orang pada interval gerbong 1-3 dengan interval gerbong 4-5.
+5. Output akan keluar saat kita selesai menuliskan aktivitas sesuai dengan banyaknya aktivitas yang kita masukan di awal.
