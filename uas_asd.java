@@ -19,6 +19,11 @@ public class uas_asd {
                 int x = sc.nextInt() - 1;
                 int y = sc.nextInt();
                 gerbong.set(x, gerbong.get(x) + y);
+            } else if (tipe == 2) {
+                int A = sc.nextInt() - 1;
+                int B = sc.nextInt() - 1;
+                int C = sc.nextInt() - 1;
+                int D = sc.nextInt() - 1;
             }
         }
 
