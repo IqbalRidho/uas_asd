@@ -1,0 +1,1 @@
+Program Asosiasi Pengendalian Kepadatan Manusia di Gerbong Kereta (APKMGK) merupakan program untuk menghitung kepadatan manusia dengan menghitung orang yang masuk ke gerbong tertentu dan program kami juga dapat mengetahui jumlah orang dalam gerbong pada dua interval tertentu.
