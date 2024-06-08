@@ -13,8 +13,14 @@ public class uas_asd {
 
         LinkedList<Integer> gerbong = new LinkedList<>();
 
-        LinkedList<String> aktivitas = new LinkedList<>();
-        scanner.nextLine();
+        for (int i = 0; i < N; i++) {
+            int tipe = sc.nextInt();
+            if (tipe == 1) {
+                int x = sc.nextInt() - 1;
+                int y = sc.nextInt();
+                gerbong.set(x, gerbong.get(x) + y);
+            }
+        }
 
         
     }
