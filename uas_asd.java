@@ -20,6 +20,10 @@ public class uas_asd {
             if (tipe == 1) {
                 int x = sc.nextInt() - 1;
                 int y = sc.nextInt();
+                if (y > 100) {
+                    System.out.println("Jumlah Orang Melebihi Kapasitas!"); 
+                    break;
+                }
                 gerbong.set(x, gerbong.get(x) + y);
             } else if (tipe == 2) {
                 int A = sc.nextInt() - 1;
