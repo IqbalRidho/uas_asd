@@ -8,12 +8,14 @@ public class uas_asd {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int N = sc.nextInt(); // untuk jumlah gerbong
-        int M = sc.nextInt(); // untuk jumlah aktivitas
+        int M = sc.nextInt(); // untuk jumlah gerbong
+        int N = sc.nextInt(); // untuk jumlah aktivitas
 
-        LinkedList<Integer> gerbong = new LinkedList<>();
+        LinkedList<Integer> gerbong = new LinkedList<>(Collections.nCopies(N, 0));
 
         sc.nextLine();
+
+        LinkedList<Integer> penyimpanan_results = new LinkedList<>(); // Untuk menyimpan hasil output
 
         for (int i = 0; i < N; i++) {
             int tipe = sc.nextInt();
@@ -21,7 +23,7 @@ public class uas_asd {
                 int x = sc.nextInt() - 1;
                 int y = sc.nextInt();
                 if (y > 100) {
-                    System.out.println("Jumlah Orang Melebihi Kapasitas!"); 
+                    System.out.println("Jumlah Orang Melebihi Kapasitas!");
                     break;
                 }
                 gerbong.set(x, gerbong.get(x) + y);
@@ -31,7 +33,7 @@ public class uas_asd {
                 int C = sc.nextInt() - 1;
                 int D = sc.nextInt() - 1;
 
-                if (A > B || C > D){
+                if (A > B || C > D) {
                     System.out.println("Aktivitas 2 tidak memenuhi aturan karena A > B dan C > D");
                 }
 
@@ -46,12 +48,18 @@ public class uas_asd {
                     orangBerbeda.add(j);
                 }
 
+                // menghitung jumlah total orang berbeda
                 int totalOrang = 0;
                 for (int gerbongIndex : orangBerbeda) {
                     totalOrang += gerbong.get(gerbongIndex);
                 }
-                System.out.println(totalOrang);
+                penyimpanan_results.add(totalOrang); // Simpan hasil totalOrang
             }
+        }
+
+        // mencetak semua hasil setelah loop utama selesai
+        for (Integer result : penyimpanan_results) {
+            System.out.println(result);
         }
     }
 }
