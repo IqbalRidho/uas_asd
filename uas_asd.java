@@ -6,12 +6,14 @@ import java.util.HashSet;
 
 public class uas_asd {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        int N = scanner.nextInt(); // untuk jumlah gerbong
-        int M = scanner.nextInt(); // untuk jumlah aktivitas
+        int N = sc.nextInt(); // untuk jumlah gerbong
+        int M = sc.nextInt(); // untuk jumlah aktivitas
 
         LinkedList<Integer> gerbong = new LinkedList<>();
+
+        sc.nextLine();
 
         for (int i = 0; i < N; i++) {
             int tipe = sc.nextInt();
@@ -35,6 +37,12 @@ public class uas_asd {
                 for (int j = C; j <= D; j++) {
                     orangBerbeda.add(j);
                 }
+
+                int totalOrang = 0;
+                for (int gerbongIndex : orangBerbeda) {
+                    totalOrang += gerbong.get(gerbongIndex);
+                }
+                System.out.println(totalOrang);
             }
         }
     }
