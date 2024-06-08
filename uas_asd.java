@@ -4,7 +4,6 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.HashSet;
 
-test
 public class uas_asd {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -17,11 +16,6 @@ public class uas_asd {
         LinkedList<String> aktivitas = new LinkedList<>();
         scanner.nextLine();
 
-        for (int i = 0; i < M; i++) {
-            aktivitas.add(scanner.nextLine());
-
-            System.out.println(gerbong);
-            System.out.println(aktivitas);
-        }
+        
     }
 }
