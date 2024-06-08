@@ -31,6 +31,10 @@ public class uas_asd {
                 int C = sc.nextInt() - 1;
                 int D = sc.nextInt() - 1;
 
+                if (A > B || C > D){
+                    System.out.println("Aktivitas 2 tidak memenuhi aturan karena A > B dan C > D");
+                }
+
                 Set<Integer> orangBerbeda = new HashSet<>();
                 // interval [A, B]
                 for (int j = A; j <= B; j++) {
