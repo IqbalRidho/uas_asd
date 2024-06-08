@@ -24,9 +24,18 @@ public class uas_asd {
                 int B = sc.nextInt() - 1;
                 int C = sc.nextInt() - 1;
                 int D = sc.nextInt() - 1;
+
+                Set<Integer> orangBerbeda = new HashSet<>();
+                // interval [A, B]
+                for (int j = A; j <= B; j++) {
+                    orangBerbeda.add(j);
+                }
+
+                // interval [C, D]
+                for (int j = C; j <= D; j++) {
+                    orangBerbeda.add(j);
+                }
             }
         }
-
-        
     }
 }
