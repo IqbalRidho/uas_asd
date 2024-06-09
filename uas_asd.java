@@ -33,8 +33,7 @@ public class uas_asd {
                 int C = sc.nextInt() - 1;
                 int D = sc.nextInt() - 1;
 
-
-                if (A > B || C > D){
+                if (A > B || C > D) {
                     System.out.println("Aktivitas 2 tidak memenuhi aturan karena A > B dan C > D");
                 }
                 Set<Integer> orangBerbeda = new HashSet<>();
@@ -54,6 +53,8 @@ public class uas_asd {
                     totalOrang += gerbong.get(gerbongIndex);
                 }
                 penyimpanan_results.add(totalOrang); // Simpan hasil totalOrang
+            } else {
+                System.out.println("Tipe Aktivitas salah");
             }
         }
 
