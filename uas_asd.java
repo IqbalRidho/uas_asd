@@ -8,8 +8,8 @@ public class uas_asd {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int M = sc.nextInt(); // untuk jumlah gerbong
-        int N = sc.nextInt(); // untuk jumlah aktivitas
+        int N = sc.nextInt(); // untuk jumlah gerbong
+        int M = sc.nextInt(); // untuk jumlah aktivitas
 
         LinkedList<Integer> gerbong = new LinkedList<>(Collections.nCopies(N, 0));
 
@@ -17,7 +17,7 @@ public class uas_asd {
 
         LinkedList<Integer> penyimpanan_results = new LinkedList<>(); // Untuk menyimpan hasil output
 
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < M; i++) {
             int tipe = sc.nextInt();
             if (tipe == 1) {
                 int x = sc.nextInt() - 1;
