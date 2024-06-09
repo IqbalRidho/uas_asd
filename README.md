@@ -1,9 +1,11 @@
+# ASOSIASI PENGENDALIAN KEPADATAN MANUSIA DI GERBONG KERETA
+
 Anggota Kelompok :
 
-Muhammad Iqbal Ridho (2309141)
-Andhika Pratama (2301647)
-Pramudya Aditama Sudrajat (2310230)
-Muhammad Miftah Fadhilah  Al-Ghifari (2308678)
+- Muhammad Iqbal Ridho (2309141)
+- Andhika Pratama (2301647)
+- Pramudya Aditama Sudrajat (2310230)
+- Muhammad Miftah Fadhilah  Al-Ghifari (2308678)
 
 Penjelasan Program APKMGK
 
